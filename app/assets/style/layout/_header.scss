@@ -1,0 +1,31 @@
+.header{
+  min-width: 296px;
+
+.sidebar{
+  min-width: 296px;
+  height: 100vh;
+  position: fixed;
+  padding-left: 32px;
+  h1{
+    margin-bottom: 32px;
+  }
+  span{   
+    vertical-align: top;
+  }
+  .sidebar-item{
+    &:hover{
+      border-left: 4px solid $success;     
+    }
+  }
+  .sidebar-user-img{
+    width: 40px;
+    height: 40px;
+  }
+  .sidebar-name{
+    color: $gray-900;
+  }
+  .sidebar-email{
+    color:$gray-600;
+  }
+}
+}
